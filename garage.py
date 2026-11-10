@@ -32,7 +32,6 @@ class Auto:
             return f"{self.znacka}, {self.model} musí na technickou - technická skončila v roce {self.STK}"
         else:
             return f"{self.znacka}, {self.model} nemusí na technickou - na technickou musíte za: {self.STK - datetime.now().year} let"
-        pass
 
 auto1 = Auto("Škoda", "Octavia 3", 2016, 2026, 85)
 auto2 = Auto("Volkswagen", "Golf 7", 2018, 2022, 10)
